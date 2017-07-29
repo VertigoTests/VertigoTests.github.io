@@ -559,9 +559,6 @@
 
                     </div>
                 </div>
-
-                
-
             </div>
         </section>
 
@@ -576,7 +573,7 @@
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-md-8 col-sm-8 scrollpoint sp-effect1">
-                                <form role="form">
+                                <form class="contact_form" action="contact-form.php" method="post">
                                     <div class="form-group">
                                         <input type="text" class="form-control" placeholder="Your name">
                                     </div>
@@ -622,6 +619,13 @@
                 </div>
             </div>
         </section>
+
+        <form id="application" action=" contact.php" method="POST" name=" application ">
+  			<input name="name" id="zayavkaName" maxlength="20" placeholder="Введите ваше имя" required />
+   			<input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Введите ваш E-mail" required />
+   			<input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required/>
+   			<button class="applicationButton" type="submit" form="application">Получить прайс </button>
+		</form>
 
         <footer>
             <div class="container">

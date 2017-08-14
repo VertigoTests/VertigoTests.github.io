@@ -1,15 +1,15 @@
 
 .menu-wrap a {
-	color: #b8b7ad;
+	color: #444444;
 }
 
 .menu-wrap a:hover,
 .menu-wrap a:focus{
-	color: #4676fa;
+	color: #aaaaaa;
 }
 .menu-wrap .navbar-nav li .active,
 .menu-wrap .navbar-nav li .active:before{
-	color: #4676fa; 
+	color: #444444; 
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
@@ -20,7 +20,7 @@
 
 .content {
 	position: relative;
-	background: #b4bad2;
+	background: #444444;
 }
 
 .content::before {
@@ -114,7 +114,7 @@
 }
 
 .icon-list a {
-	color: #0d3559;
+	color: #aaaaaa;
 	display: block;
 	padding: 0.8em;
 	-webkit-transform: translate3d(0,500px,0);
@@ -122,7 +122,7 @@
 	position: relative;
 }
 .icon-list a:before{
-	background: #4676fa;
+	background: #888888;
 	content: "";
 	height: 1px;
 	left: 0;

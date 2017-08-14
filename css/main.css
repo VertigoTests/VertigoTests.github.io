@@ -342,7 +342,7 @@ a:not([href]):not([tabindex]):hover {
   transition: all 0.2s linear;
 }
 #video-area .banner_bottom_btn i:hover {
-  color: #4676fa;
+  color: #aaaaaa;
 }
 .overlay-2 {
   background: rgba(0, 0, 0, 0.7) !important;
@@ -706,8 +706,8 @@ a:not([href]):not([tabindex]):hover {
   transition: all 0.5s ease-in-out;
 }
 .video-promo .video-promo-content .video-popup:hover {
-  background: #4676fa;
-  border-color: #4676fa;
+  background: #aaaaaa;
+  border-color: #888888;
   color: #fff;
 }
 .overlay {
@@ -716,7 +716,7 @@ a:not([href]):not([tabindex]):hover {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #4676fa;
+  background: #aaaaaa;
   opacity: 0.7;
   filter: alpha(opacity=70);
 }
@@ -986,7 +986,7 @@ a:not([href]):not([tabindex]):hover {
   width: 100%;
 }
 #subscribe form input:focus {
-  border: 1px solid #4676fa;
+  border: 1px solid #888888;
 }
 #subscribe .sub_btn {
   border: none;
@@ -1002,7 +1002,7 @@ a:not([href]):not([tabindex]):hover {
   color: #fff;
   top: 0;
   height: 50px;
-  background: #4676fa;
+  background: #888888;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -1025,7 +1025,7 @@ footer {
   color: #fff;
 }
 .site-info p a:hover {
-  color: #4676fa;
+  color: #aaaaaa;
 }
 .social-icons {
   margin-bottom: 20px;
@@ -1122,7 +1122,7 @@ footer {
   text-decoration: none;
   color: #fff;
   font-size: 12px;
-  background: #4676fa;
+  background: #888888;
   text-transform: uppercase;
   border: none;
   padding: 7px 16px;

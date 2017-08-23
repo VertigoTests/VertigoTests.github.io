@@ -24,36 +24,38 @@
 
   </head>
   <body>
-      <div class="menu-wrap">
-        <nav class="menu navbar">
-          <div class="icon-list navbar-collapse">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#video-area">Домой</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">О нас</a>
-              </li>  
-              <li class="nav-item">
-                <a class="nav-link" href="#features">Курсы</a>
-              </li>                            
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolios">Галерея</a>
-              </li>            
-              <li class="nav-item">
-                <a class="nav-link" href="#pricing">Цены</a>
-              </li>     
- 			  <li class="nav-item">
-                <a class="nav-link" href="#subscribe">Мы в соцсетях</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Написать нам</a>
-              </li>   
-            </ul>
-          </div>
-        </nav> 
-        <button class="close-button" id="close-button"><i class="lnr lnr-cross"></i></button>
-      </div>      
+  <!--Siderbar menu section start -->
+	<!--<div class="menu-wrap">
+		<nav class="menu navbar">
+		<div class="icon-list navbar-collapse">
+			<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="#video-area">Домой</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="#services">О нас</a>
+				</li>  
+				<li class="nav-item">
+				<a class="nav-link" href="#features">Курсы</a>
+				</li>                            
+				<li class="nav-item">
+				<a class="nav-link" href="#portfolios">Галерея</a>
+				</li>            
+				<li class="nav-item">
+				<a class="nav-link" href="#pricing">Цены</a>
+				</li>     
+				  <li class="nav-item">
+				<a class="nav-link" href="#subscribe">Мы в соцсетях</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="#contact">Написать нам</a>
+			</li>   
+			</ul>
+		</div>
+		</nav> 
+		<button class="close-button" id="close-button"><i class="lnr lnr-cross"></i></button>
+	</div>  --> 
+	<!--Sidebar menu section end-->   
 
   	<!-- Header Section Start -->
     <header id="video-area" data-stellar-background-ratio="0.5">    
@@ -62,8 +64,35 @@
       <div class="fixed-top">
           <div class="container">
             <div class="logo-menu">
-              <a href="index.html" class="logo"><span class="lnr lnr-picture"></span>НАЗВАНИЕ</a>
-              <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>    
+				<a href="index.html" class="logo"><span class="lnr lnr-picture"></span>НАЗВАНИЕ</a>
+				<!--Menu header-->
+				<div class = "navbar-light">
+				<ul>
+					<li class="nav-item">
+						<a class="nav-link" href="#video-area">Наверх</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#services">О нас</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#features">Курсы</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolios">Галерея</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#pricing">Цены</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#subscribe">Мы в соцсетях</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Написать нам</a>
+					</li>	
+				</ul>
+				</div>
+              <!--Sidebar menu open button
+              <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>-->    
             </div>           
           </div>
       </div>
@@ -419,71 +448,141 @@
           <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy <br> nibh euismod tincidunt ut laoreet dolore magna.</p>
         </div>
 
-        <div class="row pricing-tables">
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-table table-left wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <div class="icon">
-                <i class="lnr lnr-rocket"></i> 
-              </div>
-              <div class="pricing-details">
-                <h2>КУРС</h2>
-                <span>Цена</span>
-                <ul>
-                  <li>Consectetur adipiscing</li>
-                  <li>Nunc luctus nulla et tellus</li>
-                  <li>Suspendisse quis metus</li>
-                  <li>Vestibul varius fermentum erat</li>
-                </ul>
-              </div>
-              <!--<div class="plan-button">
-                <a href="#" class="btn btn-common">Get Plan</a>
-              </div>-->
-            </div>
-          </div>
+        <!-- Main slider start -->
+        <div class="touch-slider owl-carousel owl-theme">
 
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-table wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <div class="icon">
-                <i class="lnr lnr-heart"></i> 
-              </div>
-              <div class="pricing-details">
-                <h2>КУРС</h2>
-                <span>Цена</span>
-                <ul>
-                  <li>Consectetur adipiscing</li>
-                  <li>Nunc luctus nulla et tellus</li>
-                  <li>Suspendisse quis metus</li>
-                  <li>Vestibul varius fermentum erat</li>
-                </ul>
-              </div>
-              <!--<div class="plan-button">
-                <a href="#" class="btn btn-common">Buy Now</a>
-              </div>-->
-            </div>
-          </div>
+	        <div class="row pricing-tables">        
+		        <div class="col-md-4 col-sm-6 col-xs-12">
+		            <div class="pricing-table table-left wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="0.3s">
+		              <div class="icon">
+		                <i class="lnr lnr-rocket"></i> 
+		              </div>
+		              <div class="pricing-details">
+		                <h2>КУРС</h2>
+		                <span>Цена</span>
+		                <ul>
+		                  <li>Consectetur adipiscing</li>
+		                  <li>Nunc luctus nulla et tellus</li>
+		                  <li>Suspendisse quis metus</li>
+		                  <li>Vestibul varius fermentum erat</li>
+		                </ul>
+		              </div>
+		              <div class="plan-button">
+		                <a href="#contact" class="btn btn-common">Записаться</a>
+		              </div>
+		            </div>
+		        </div>
 
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-table table-left wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="0.3s">
-              <div class="icon">
-                <i class="lnr lnr-magic-wand"></i> 
-              </div>
-              <div class="pricing-details">
-                <h2>КУРС</h2>
-                <span>Цена</span>
-                <ul>
-                  <li>Consectetur adipiscing</li>
-                  <li>Nunc luctus nulla et tellus</li>
-                  <li>Suspendisse quis metus</li>
-                  <li>Vestibul varius fermentum erat</li>
-                </ul>
-              </div>
-              <!--<div class="plan-button">
-                <a href="#" class="btn btn-common">Buy Now</a>
-              </div>-->
-            </div>
-          </div>
+		        <div class="col-md-4 col-sm-6 col-xs-12">
+		            <div class="pricing-table wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
+		      	      <div class="icon">
+		                <i class="lnr lnr-heart"></i> 
+		              </div>
+		              <div class="pricing-details">
+		                <h2>КУРС</h2>
+		                <span>Цена</span>
+		                <ul>
+		                  <li>Consectetur adipiscing</li>
+		                  <li>Nunc luctus nulla et tellus</li>
+		                  <li>Suspendisse quis metus</li>
+		                  <li>Vestibul varius fermentum erat</li>
+		                </ul>
+		               </div>
+		               <div class="plan-button">
+		                <a href="#contact" class="btn btn-common">Записаться</a>
+		              </div>
+		            </div>
+		          </div>
 
+		          <div class="col-md-4 col-sm-6 col-xs-12">
+			            <div class="pricing-table table-left wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="0.3s">
+			              <div class="icon">
+			                <i class="lnr lnr-magic-wand"></i> 
+			              </div>
+			              <div class="pricing-details">
+			                <h2>КУРС</h2>
+			                <span>Цена</span>
+			                <ul>
+			                  <li>Consectetur adipiscing</li>
+			                  <li>Nunc luctus nulla et tellus</li>
+			                  <li>Suspendisse quis metus</li>
+			                  <li>Vestibul varius fermentum erat</li>
+			                </ul>
+			               </div>
+			               <div class="plan-button">
+			                <a href="#contact" class="btn btn-common">Записаться</a>
+			              </div>
+			            </div>
+	            	</div>
+	          </div>
+
+
+	           <div class="row pricing-tables">        
+		          <div class="col-md-4 col-sm-6 col-xs-12">
+		            <div class="pricing-table table-left wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="0.3s">
+		              <div class="icon">
+		                <i class="lnr lnr-rocket"></i> 
+		              </div>
+		              <div class="pricing-details">
+		                <h2>КУРС</h2>
+		                <span>Цена</span>
+		                <ul>
+		                  <li>Consectetur adipiscing</li>
+		                  <li>Nunc luctus nulla et tellus</li>
+		                  <li>Suspendisse quis metus</li>
+		                  <li>Vestibul varius fermentum erat</li>
+		                </ul>
+		              </div>
+		              <div class="plan-button">
+		                <a href="#contact" class="btn btn-common">Записаться</a>
+		              </div>
+		            </div>
+		          </div>
+
+		          <div class="col-md-4 col-sm-6 col-xs-12">
+		            <div class="pricing-table wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s">
+		              <div class="icon">
+		                <i class="lnr lnr-heart"></i> 
+		              </div>
+		              <div class="pricing-details">
+		                <h2>КУРС</h2>
+		                <span>Цена</span>
+		                <ul>
+		                  <li>Consectetur adipiscing</li>
+		                  <li>Nunc luctus nulla et tellus</li>
+		                  <li>Suspendisse quis metus</li>
+		                  <li>Vestibul varius fermentum erat</li>
+		                </ul>
+		              </div>
+		               <div class="plan-button">
+		                <a href="#contact" class="btn btn-common">Записаться</a>
+		              </div>
+		            </div>
+		          </div>
+
+		          <div class="col-md-4 col-sm-6 col-xs-12">
+			            <div class="pricing-table table-left wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="0.3s">
+			              <div class="icon">
+			                <i class="lnr lnr-magic-wand"></i> 
+			              </div>
+			              <div class="pricing-details">
+			                <h2>КУРС</h2>
+			                <span>Цена</span>
+			                <ul>
+			                  <li>Consectetur adipiscing</li>
+			                  <li>Nunc luctus nulla et tellus</li>
+			                  <li>Suspendisse quis metus</li>
+			                  <li>Vestibul varius fermentum erat</li>
+			                </ul>
+			               </div>
+			               <div class="plan-button">
+			                <a href="#contact" class="btn btn-common">Записаться</a>
+			              </div>
+			            </div>
+	            	</div>
+	          </div>
         </div>
+        <!-- Main slider end -->S
       </div>
     </div>
     <!-- End Pricing Table Section -->

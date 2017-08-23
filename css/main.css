@@ -162,6 +162,12 @@ a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 
+.logo-menu .contacts-block{
+  font-size: 14px;
+  text-align: right;
+  color: #ddd;
+}
+
 .menu-bg {
   background-color: #fff!important;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
@@ -186,7 +192,7 @@ a:not([href]):not([tabindex]):hover {
   cursor: pointer;
 }
 
-.navbar-light li {
+.navbar-light .navbar-nav li {
   display: inline-block;
 }
 .navbar-light .navbar-nav .nav-item {
